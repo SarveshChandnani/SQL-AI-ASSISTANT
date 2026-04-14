@@ -1,6 +1,7 @@
-def main():
-    print("Hello from sql-ai-assiatant!")
+import uvicorn
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run("app.api.main:app", host="0.0.0.0", port=8000, reload=True)

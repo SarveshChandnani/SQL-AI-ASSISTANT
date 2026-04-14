@@ -9,3 +9,8 @@ langgraph-checkpoint-sqlite
 langchain-community
 uv
 aiosqlite
+langchain_mcp_adapters
+langgraph-checkpoint-postgres
+fastapi
+uvicorn
+psycopg[binary]
